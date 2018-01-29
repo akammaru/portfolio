@@ -4,6 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+/**
+ * import bootstrap
+ */
+require('../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss')
+
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
